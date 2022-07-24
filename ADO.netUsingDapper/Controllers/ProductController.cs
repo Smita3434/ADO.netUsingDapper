@@ -91,6 +91,7 @@ namespace ADO.netUsingDapper.Controllers
         // POST: ProductController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [ActionName("Delete")]
         public ActionResult DeleteConfirm(int id)
         {
             try
